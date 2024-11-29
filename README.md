@@ -68,8 +68,9 @@ Pre-Built Dashboards
 
 Adding Data Sources
 ---
--Prometheus: Add Prometheus as a data source in Grafana.
--Loki: Add Loki as a data source for log aggregation.
+**Prometheus**: Add Prometheus as a data source in Grafana.  
+
+**Loki**: Add Loki as a data source for log aggregation.
 
 -Add alerting rules in prometheus.yml.
 -Modify dashboards in Grafana for tailored metrics.
