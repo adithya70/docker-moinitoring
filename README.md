@@ -72,9 +72,10 @@ Adding Data Sources
 
 **Loki**: Add Loki as a data source for log aggregation.
 
--Add alerting rules in prometheus.yml.
--Modify dashboards in Grafana for tailored metrics.
--Backup Prometheus and Loki data regularly.
+Add alerting rules in prometheus.yml.  
+Modify dashboards in Grafana for tailored metrics.  
+Backup Prometheus and Loki data regularly.
+
 
 Stopping and Cleaning Up
 ---
