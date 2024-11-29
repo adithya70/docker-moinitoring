@@ -61,7 +61,7 @@ docker-compose up -d
 Prometheus: http://localhost:9090
 Grafana: http://localhost:3000 (Default: admin/admin)
 cAdvisor: http://localhost:8080
-
+---
 #Grafana Dashboards
 Pre-Built Dashboards
 
@@ -72,7 +72,7 @@ Loki: Add Loki as a data source for log aggregation.
 Add alerting rules in prometheus.yml.
 Modify dashboards in Grafana for tailored metrics.
 Backup Prometheus and Loki data regularly.
-
+---
 #Stopping and Cleaning Up
 1. Stop the Monitoring Stack
 To safely stop the monitoring stack without affecting the Docker containers, networks, or volumes, use the following command:
